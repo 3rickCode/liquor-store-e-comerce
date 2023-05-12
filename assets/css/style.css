@@ -331,10 +331,11 @@ body.dark {
   height: 17px;
   background-color: var(--primary-color);
   font-size: var(--tiny-font);
-  color: var(--text-color2);
+  color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 700;
   border-radius: 100%;
   opacity: 0;
   visibility: hidden;
@@ -569,7 +570,7 @@ body.dark {
 
 .product__btn:hover {
   background-color: var(--primary-color);
-  color: var(--text-color2);
+  color: #000;
   border-color: var(--text-color);
 }
 
